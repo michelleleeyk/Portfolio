@@ -258,8 +258,11 @@ footer{
 }
 
 /* MOBILE SPECIFIC RESPONSIVE DESIGN*/
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
 .skills{
+    display: block;
+    }
+.skill{
     display: block;
     }
 }
