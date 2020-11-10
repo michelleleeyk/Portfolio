@@ -8,6 +8,7 @@ html{
 *{
     color: #6eb2bd;  
     font-family: 'Poppins', sans-serif;
+    /* outline: 1px solid red; */
 }
 
 .mono-font{font-family: 'Roboto Mono', monospace;}
@@ -42,6 +43,7 @@ h1{
 .contact{
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: fixed;
     top: 100px;
     right: 50px;
@@ -115,9 +117,7 @@ h4{
     /* margin: 5% 0; */
     /* padding-bottom: 5%; */
 }
-.product-design{
-    border-bottom: 2px solid #bbdee4;
-}
+
 
 .work h2{
     line-height: 0.2;
@@ -131,7 +131,6 @@ footer{
     font-size: 12px;
     margin: 0% 15%;
     text-align: center;
-    padding: 10px 0px;
 }
 
 #no-bold{
@@ -142,13 +141,31 @@ footer{
 /* RESPONSIVE DESIGN */
 /* For when screen is < half */
 @media screen and (max-width:1000px){
+    html{
+        width: 100%;
+        max-width:100%;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        /* overflow-x: hidden; */
+    }
+
+    .contact-line{
+        visibility: hidden ;
+    }
+
+    .work h2{
+        line-height: 0.2;
+        margin: 0%;
+        padding: 5% 0;
+    }
+
     .contact{
         position: static;
         display: inline;
     }
 
     header{
-        width: 100%;
         text-align: center;
         margin: 0;
     }
@@ -157,6 +174,19 @@ footer{
         font-size: 3rem;
         line-height: 0.8;
         text-align: center;
+    }
+
+    p{
+        font-size:1rem;
+        display: inline-block;
+    }
+
+    .intro{
+        max-width: 100%;
+    }
+
+    .skills{
+        max-width: 100%;
     }
 
     .new-line{
@@ -191,17 +221,20 @@ footer{
     .body-items{
         flex-wrap: wrap;
         flex-direction: column;
-        /* justify-content: space-around; */
-        /* align-items: stretch; */
-
-
     }
-    
+
+
     h2{
         font-size: 2rem;
         width: 100%;
         text-align: left;
         margin: 0;
+    }
+
+    .about{
+ 
+        margin: 0% auto;
+        padding-bottom: 5%;
     }
 
     .about img{
@@ -213,8 +246,13 @@ footer{
         font-size: 1rem;
     }
 
-    .product-design{
-        margin: 0;
+    .item{
+        margin:0;
+        padding:0;
+    }
+
+    footer p{
+        font-size: 0.8rem;
     }
 }
 
