@@ -34,11 +34,11 @@ body {
     z-index: 0.001;
     overflow: hidden;
     margin: 20px;
-    border: 0.5px solid #ebecf0;
     border-radius: 3px;
     -webkit-box-shadow: 0px 17px 11px -6px rgba(143,143,143,0.8);
     -moz-box-shadow: 0px 17px 11px -6px rgba(143,143,143,0.8);
     box-shadow: 0px 17px 11px -6px rgba(143,143,143,0.8);
+
 }
 
 .container .card:before {
@@ -176,6 +176,7 @@ button i {
 .card3 button {
     background-color: #6eb2bd;
 }
+
 
 /*
 NOT IN USE: CARD TITLE
