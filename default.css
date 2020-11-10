@@ -8,7 +8,7 @@ html{
 *{
     color: #6eb2bd;  
     font-family: 'Poppins', sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .mono-font{font-family: 'Roboto Mono', monospace;}
