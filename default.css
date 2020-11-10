@@ -278,28 +278,6 @@ footer{
     transform-origin:0 50%;
 }
 
-/*just for navigation & clarification purposes!*/
-
-/* header{
-    background-color: #bbdee4;
-} */
-/*
-body{
-    background-color: pink;
-}
-
-footer{
-    background-color: yellow;
-}
-
-#about{
-    background-color: rgb(241, 218, 155);
-}
-
-#work{
-    background-color: orange;
-} */
-
 /* PRODUCT DESIGN GALLERY PAGE */
 /* .subpage-header{
     border-bottom: 2px solid #bbdee4;
@@ -357,9 +335,3 @@ footer{
     max-width: 100%;
     min-width: 50%;
 }
-
-
-
-.no-underline{
-    text-decoration: none;
-} */
