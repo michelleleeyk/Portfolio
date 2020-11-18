@@ -92,11 +92,6 @@ h4{
     min-width:150px;
 }
 
-.intro{
-    /* padding: 0;
-    margin: 0; */
-}
-
 .intro p{
     text-align: justify;
 
@@ -112,17 +107,16 @@ h4{
 }
 
 /* WORK */
-.work{
-    /* border-bottom: 2px solid #bbdee4; */
-    /* margin: 5% 0; */
-    /* padding-bottom: 5%; */
-}
-
-
 .work h2{
     line-height: 0.2;
     margin: 0% 15%;
     padding: 5% 0;
+}
+
+/* WHAT I'VE BEEN UP TO */
+.fun-facts{
+    border-top: 2px solid #bbdee4;
+    margin: 0 10% 5% 10%;
 }
 
 /* FOOTER */ 
@@ -136,7 +130,6 @@ footer{
 #no-bold{
     font-weight: 400;
 }
-
 
 /* RESPONSIVE DESIGN */
 /* For when screen is < half */
